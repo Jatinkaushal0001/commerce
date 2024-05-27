@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website with Payment</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- cdnjs -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+
+</head>
+<body>
+    <!--navbar-->
+    <header>
+<div class="nav container">
+    <a href="#" class="logo"></a>
+    <!--cart icon-->
+    <i class="fa-solid fa-bag-shopping" id="cart-icon" style="color: azure;" data-quantitiy="0"></i>
+    <!--cart-->
+    <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+
+
+    <!--content-->
+    <div class="cart-content">
+        <div class="cart-box">
+            <!-- <img src="./photos/Yellow-Raw-Silk-Festival-Wear-Resham-Work-Dupatta-KD49-9.jpg" alt="" class="cart-img"/>
+            <div class="detail-box">
+                <div class="cart-product-title">Dupatta</div>
+                <div class="cart-price">Rs500</div>
+                <input type="number" name="" id="" value="1" class="cart-quantity"/>
+            </div> -->
+            <!--Remove item-->
+            <i class="fa-solid fa-trash cart-remove"></i>
+        </div>
+    </div>
+        <!--total-->
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">Rs0</div>
+        </div>
+        <!--Buy Button-->
+        <button type="button" class="btn-buy">Pay Now</button>
+        <!--close cart-->
+        <i class="fa-solid fa-xmark" id="close-cart"></i>
+
+    </div>
+</div>
+</header>
+
+<!--Products-->
+<section class="shop container">
+    <h2 class="section-title">Shop Products</h2>
+    <!-- Shop-content-->
+    <div class="shop-content">
+        <!--Box 1-->
+        <div class="product-box">
+            <img src="https://www.sindhoipatola.in/cdn/shop/files/NqpbB3A4iZp00KqTxvV.jpg?v=1708151396" alt="" class="product-img">
+            <h2 class="product-title">
+                Potala Dupata
+            </h2>
+            <span class="Price">RS1000</span>
+            <i class="fa-solid fa-bag-shopping add-cart"></i>
+        </div>
+         <!--Box 2-->
+         <div class="product-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxHE3Jqcw9x_KrtuNPDHKtHXTueY-0_VNHyYAN7054nq_SSuxJhfJSNmJXHfLdw9FdswQ&usqp=CAU" alt="" class="product-img">
+            <h2 class="product-title">
+                Navratan Designer Dupata
+            </h2>
+            <span class="Price">RS800</span>
+            <i class="fa-solid fa-bag-shopping add-cart"></i>
+        </div>
+         <!--Box 3-->
+         <div class="product-box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS28jOkeyoBapaF6fJpDIH63Pd5sqfegah4J4jzZH0mHH8eBMSt7g-fRK1l_hsyc27nbuc&usqp=CAU" alt="" class="product-img">
+            <h2 class="product-title">
+                Panchanda Designer Dupata
+            </h2>
+            <span class="Price">RS500</span>
+            <i class="fa-solid fa-bag-shopping add-cart"></i>
+        </div>
+         <!--Box 4-->
+         <div class="product-box">
+            <img src="https://www.sindhoipatola.in/cdn/shop/files/Nr-uFFQEvSH26WpnDti.jpg?v=1708502970" alt="" class="product-img">
+            <h2 class="product-title">
+                Navratan Designer Dupata
+            </h2>
+            <span class="Price">Rs700</span>
+            <i class="fa-solid fa-bag-shopping add-cart"></i>
+        </div>
+         <!--Box 5-->
+         <div class="product-box">
+            <img src="https://www.sindhoipatola.in/cdn/shop/files/NlDgdedK90z4t8fTuTb.jpg?v=1702128128" alt="" class="product-img">
+            <h2 class="product-title">
+                Green Navratan Designer Dupata
+            </h2>
+            <span class="Price">RS700</span>
+            <i class="fa-solid fa-bag-shopping add-cart"></i>
+        </div>
+         <!--Box 6-->
+         <div class="product-box">
+            <img src="./photos/343cd01b988f4496f75c08df8c38212f.jpg" alt="" class="product-img">
+            <h2 class="product-title">
+                Green Navratan Designer Dupata
+            </h2>
+            <span class="Price">RS700</span>
+            <i class="fa-solid fa-bag-shopping add-cart"></i>
+        </div>
+         <!--Box 7-->
+         <div class="product-box">
+            <img src="./photos/4c0a1f6a9f515d90c8bd1470f45d93d5.jpg" alt="" class="product-img">
+            <h2 class="product-title">
+                Green Navratan Designer Dupata
+            </h2>
+            <span class="Price">RS700</span>
+            <i class="fa-solid fa-bag-shopping add-cart"></i>
+        </div>
+         <!--Box 8-->
+         <div class="product-box">
+            <img src="photos/865e5310497ce8671897f7d60fc130c7.jpg" alt="" class="product-img">
+            <h2 class="product-title">
+                Green Navratan Designer Dupata
+            </h2>
+            <span class="Price">RS700</span>
+            <i class="fa-solid fa-bag-shopping add-cart"></i>
+        </div>
+         <!--Box 9-->
+         <div class="product-box">
+            <img src="photos/3d9bffde807eec115d5e7d98e688b60f.jpg" alt="" class="product-img">
+            <h2 class="product-title">
+                Green Navratan Designer Dupata
+            </h2>
+            <span class="Price">RS700</span>
+            <i class="fa-solid fa-bag-shopping add-cart"></i>
+        </div>
+         <!--Box 10-->
+         <div class="product-box">
+            <img src="photos/7c25ebfeabcba139c3507642e005fd99.jpg" alt="" class="product-img">
+            <h2 class="product-title">
+                Green Navratan Designer Dupata
+            </h2>
+            <span class="Price">RS700</span>
+            <i class="fa-solid fa-bag-shopping add-cart"></i>
+        </div>
+    </div>
+</section>
+<script src="main.js"></script>
+</body>
+</html>
